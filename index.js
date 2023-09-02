@@ -1,9 +1,10 @@
 // index.js
 
-// Import the required modules for the program
-const inquirer = require("inquirer");  // This is used to interactively prompt the user for input
-const fs = require("fs");  // This is used for filesystem operations like saving a file
-const { Triangle, Circle, Square } = require("./Lib/shapes");  // Import the shapes we need from our shapes library
+import inquirer from "inquirer";
+import fs from "fs";
+import { Triangle, Circle, Square } from "./Lib/shapes.js"
+
+
 
 // Define the main function that starts the application
 function startApp() {

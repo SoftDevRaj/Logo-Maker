@@ -32,6 +32,7 @@ class Square extends Shape {
 }
 
 // This is so that other files (like your tests or index.js) can use these classes.
-module.exports = { Triangle, Circle, Square };
+export { Triangle, Circle, Square }; // Use 'export' to export the classes
+
 
 //Reference for Shapes: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial 
