@@ -1,5 +1,5 @@
 // Get the shape classes
-const { Triangle, Circle, Square } = require('/LIB/shapes');
+const { Triangle, Circle, Square } = require('./shapes');
 
 // Test for Triangle
 test('Check Triangle', () => {

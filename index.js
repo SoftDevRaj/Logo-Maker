@@ -3,7 +3,7 @@
 // Import necessary modules
 const inquirer = require("inquirer");
 const fs = require("fs"); // Required to save the SVG to a file
-const { Triangle, Circle, Square } = require("./LIB/shapes");
+const { Triangle, Circle, Square } = require("./Lib/shapes");
 
 // Start the application
 function startApp() {
