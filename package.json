@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^9.2.10",
+    "jest": "^29.6.4"
+  }
 }
